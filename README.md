@@ -31,13 +31,23 @@ The user enters a number, an operator, and another number, the program will proc
 ## Example Usage
 
 ```
-Welcome to my basic Calculator
+Welcome to my basic Calculator.
+
 Please enter a number.
-1.7
-Please select an operation. (+, -, *, /)*
+1
+Please select an operation. (+, -, *, /)
++ 
 Please enter a number.
-8
-1.7 times 8.0 is 13.6
+2
+1.0 plus 2.0 is 3.0
+Please select an operation. (+, -, *, /)
+/
+Please enter a number.
+3
+3.0 divided by 3.0 is 1.0
+Please select an operation. (+, -, *, /)
+q
+Thanks for using my calculator!
 ```
 
 ## Future Improvements

@@ -2,7 +2,7 @@ from input import get_input
 from constants import OPERATORS
 
 def main():
-    print("Welcome to my basic Calculator")
+    print("Welcome to my basic Calculator.\n")
     running = True
 
     # The calculator result
@@ -10,7 +10,7 @@ def main():
     # Start the app loop
     number1 = get_input(float)
     while running:
-        operation, name = get_input("function", "Please select an operation. (+, -, *, /)")
+        operation, name = get_input("function", "Please select an operation. (+, -, *, /)\n")
         if operation == "q":
             break
         number2 = get_input(float)
