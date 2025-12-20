@@ -6,6 +6,8 @@ def get_input(return_class, prompt="Please enter a number.\n"):
     running = True
     while running:
         user_input = input(prompt)
+        if user_input == "q":
+            return "q", None
         if return_class == "function":
             if user_input in OPERATORS:
                 match user_input:
