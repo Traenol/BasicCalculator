@@ -3,7 +3,7 @@ from handlers import operand_handler, operator_handler, calculate_handler
 
 STATES_MATRIX = {
     STATES.EXPECTING_LEFT_OPERAND: (operand_handler, "Please enter a number: "),
-    STATES.EXPECTING_OPERATOR: (operator_handler, "Please enter a operator: "),
+    STATES.EXPECTING_OPERATOR: (operator_handler, "Please enter an operator: "),
     STATES.EXPECTING_RIGHT_OPERAND: (operand_handler, "Please enter a number: "),
     STATES.CALCULATE: (calculate_handler, "Calculating..."),
 }
