@@ -16,6 +16,7 @@ def main():
     current_state = STATES.EXPECTING_LEFT_OPERAND
     # Start the main app loop
     while True:
+        user_input = ""
         # Check if we need input or to calculate the current inputs
         if current_state is not STATES.CALCULATE:
             # Not ready, get input
