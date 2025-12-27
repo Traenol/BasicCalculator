@@ -1,7 +1,7 @@
 # BasicCalculator
 # Week 3: Functions & Calculator
 A simple CLI calculator to practice using DRY coding principles, multiple code files, and function handling.
-The user enters a number, an operator, and another number, the program will produce the result. The user can then continue with further calculations, clear the current result, close the calculator, or view the history log.
+The user enters a number, an operator, and another number; the program will produce the result. The user can then continue with further calculations, clear the current result, close the calculator, or view the history log.
 
 ## Project Requirements
 
